@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <h1 style="color: red;">STUDENT EXERCISE</h1>
+    <form>
+        <fieldset>
+            <legend><strong>Test Form</strong></legend>
+
+            <label for="username">Username:</label>&nbsp; &nbsp; &nbsp;
+            <input type="text" name="username" id="username" required placeholder="Please enter username" required />
+
+            <br><br>
+            <label for="password">Password:</label> &nbsp; &nbsp; &nbsp;
+            <input type="password" name="password" id="password" required placeholder="Please enter password"
+                required />
+
+            <br><br>
+            <label for="email">Email:</label> &nbsp; &nbsp; &nbsp;
+            <input type="email" name="email" id="email" required placeholder="Please enter email" required>
+
+            <br><br>
+            <p> Gender &nbsp;<img src="../exercise/mars.png" width="15px" />:&nbsp; &nbsp;&nbsp;
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female" checked="checked">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label></p>
+
+            <br>
+            <label for="continent">Continent:</label> &nbsp; &nbsp; &nbsp;
+            <select name="continent" id="continent" size="1">
+                <option value=disabled selected>Choose continent</option>
+                <option value="europe">Europe</option>
+                <option value="asia">Asia</option>
+                <option value="africa">Africa</option>
+                <option value="antarctica">Antarctica</option>
+                <option value="southAmerica">South America</option>
+                <option value="northAmerica">North America</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <br><br>
+            <label for="avatar">Please upload your image:</label> &nbsp; &nbsp; &nbsp;
+            <input type="file" name="avatar" id="avatar" />
+
+            <br><br>
+            <p>Meals: &nbsp; &nbsp; &nbsp;
+                <label for="breakfast">Breakfast</label>
+                <input type="checkbox" name="meals" id="breakfast" value="breakfast" /> &nbsp; &nbsp;&nbsp;
+
+                <label for="lunch">Lunch</label>
+                <input type="checkbox" name="meals" id="lunch" value="lunch" />&nbsp; &nbsp;&nbsp;
+
+                <label for="dinner">Dinner</label>
+                <input type="checkbox" name="meals" id="dinner" value="dinner" /> </p>
+
+            <br>
+            <label for="date">Please enter date:</label> &nbsp; &nbsp; &nbsp;
+            <input type="date" name="date" id="date" min="2020-12-03" />
+
+            <br><br>
+            <label for="color">Pick a color:</label> &nbsp; &nbsp; &nbsp;
+            <input type="color" name="color" id="color">
+
+            <br><br>
+            <label for="range">How satisfied you are from our service?</label> &nbsp; &nbsp; &nbsp;
+            <input type="range" name="range" id="range">
+
+            <br><br>
+            <label for="remark">Remark:</label> &nbsp; &nbsp; &nbsp;
+            <textarea name="remark" id="remark" cols="30" rows="3" placeholder="Please enter remarks"></textarea>
+
+            <br><br>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Send" />
+
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
