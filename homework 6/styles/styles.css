@@ -1,0 +1,140 @@
+* {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    
+}
+#title {
+    text-align: center;
+    border-top: 2px double rgb(31, 140, 184);
+    border-bottom: 5px solid rgb(31, 140, 184);
+    border-left: 1px solid blue;
+    border-right: 5px solid rgb(236, 236, 92);
+    text-shadow: 2px 2px 3px white ;
+    padding: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: rgb(197, 234, 245);
+    letter-spacing: 0.6px;
+    
+}
+.images img{
+    height: 250px;
+    border: 3px dotted rgb(63, 248, 63);
+    margin: 30px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+    
+}
+#koala {
+    margin-bottom: 60px;
+    
+}
+ #parrot:hover {
+    height: 240px;
+}
+#koala:hover {
+    height: 240px;
+}
+#monkey:hover{
+    height: 240px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.boxes article {
+    border: 3px dashed black;
+    margin: 25px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.main {
+    border-bottom: 2px dashed rgb(228, 61, 117);
+}
+#border-box {
+    background-color: rgb(46, 105, 46) ;
+    background-clip: border-box;
+}
+#content-box  {
+    background-clip: content-box;
+    background-color: rgb(46, 105, 46);
+    
+}
+#padding-box{
+   background-color: rgb(46, 105, 46);
+   background-clip: padding-box;
+}
+h5 {
+    font-size: 18px
+}
+
+table {
+    
+  width: 400px;
+  margin-left: 460px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  border-spacing: 0;
+}
+td {
+    float: right;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px black;
+   
+}
+    
+
+  .table_row1 {      
+    background-color: rgb(27, 75, 233);
+}
+.table_row2 {
+    background-color: rgb(40, 90, 239);
+}
+.table_row3 {
+    background-color: rgb(40, 123, 218);
+}
+.table_row4 {
+    background-color: rgb(83, 157, 241);
+}
+.table_row5 {
+        background-color: rgb(128, 180, 240);
+    }
+
+.table_row6 {
+    background-color: rgb(164, 201, 245);
+}
+.table_row7 {
+    background-color: rgb(187, 214, 245);
+}
+.table_row8 {
+    background-color: rgb(34, 201, 117);
+}
+.table_row9 {
+    background-color: rgba(200, 52, 101, 0.212);
+}
+.table_row10 {
+    background-color:rgba(200, 52, 101, 0.315) ;
+}
+.table_row11 {
+    background-color:rgba(200, 52, 101, 0.472) ;
+}
+.table_row12 {
+    background-color:rgba(200, 52, 101, 0.52) ;
+}
+.table_row13 {
+    background-color:rgba(200, 52, 101, 0.74) ;
+}
+
+.table_row14{
+    background-color:rgba(200, 52, 101, 0.89) ;
+}
+
+.table_row15 {
+    background-color: rgb(200, 52, 101);
+}
