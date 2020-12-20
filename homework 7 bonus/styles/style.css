@@ -1,0 +1,202 @@
+* {
+    margin: auto;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+#box1 {
+    width: 120px;
+    height: 60px;
+    position: relative;
+    left: -186px;
+    top: -1px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    background-color: rgb(183, 231, 233);
+    
+}
+#box2 {
+    width: 170px;
+    height: 60px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    left: -31px;
+    top: -71px;
+    background-color: rgb(235, 207, 171);
+}
+#box3 {
+    width: 150px;
+    height: 60px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    right: -138.5px;
+    top: -141px;
+    background-color: rgb(236, 139, 70);
+}
+#box4 {
+    width: 60px;
+    height: 120px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    left: -216px;
+    top: -142px;
+    background-color: whitesmoke;
+}
+#box5 {
+    width: 60px;
+    height: 170px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    left: -216px;
+    top: -142px;
+    background-color: rgb(183, 231, 233);
+}
+#box6 {
+    width: 60px;
+    height: 123px;
+    border-right: 10px solid black;
+    position: relative;
+    left: -216px;
+    top: -142px;
+    background-color: rgb(236, 139, 70);
+}
+#box7 {
+    width: 230px;
+    height: 230px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    background-color: rgb(245, 45, 45);
+    position: relative;
+    top: -574px;
+    left: -61px;
+}
+#box8 {
+    width: 115px;
+    height: 140px;
+    background-color: black;
+    position: relative;
+    top: -574px;
+    left: -124px;
+
+}
+#box9 {
+    width: 105px;
+    height: 51px;
+    background-color:rgb(183, 231, 233) ;
+    position: relative;
+    top: -574px;
+    left: -124px;
+    border-right: 10px solid black;
+}
+#box10 {
+    width: 115px;
+    height: 60px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    background-color: rgb(183, 231, 233);
+    position: relative;
+    top: -765px;
+    left: -3.7px;
+    
+}
+#box11 {
+    width: 115px;
+    height: 60px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    background-color: whitesmoke;
+    position: relative;
+    top: -765px;
+    left: -3.7px;
+    
+}
+#box12 {
+    width: 115px;
+    height: 25px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    background-color: black;
+    position: relative;
+    top: -765px;
+    left: -3.7px;
+    
+}
+#box13 {
+    width: 150px;
+    height: 115px;
+    background-color: rgb(236, 139, 70);
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    top: -1180px;
+    left: 138.5px;
+    
+}
+#box14 {
+    width: 70.5px;
+    height: 105px;
+    background-color: rgb(183, 231, 233);
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    top: -1180px;
+    left: 98.5px;
+}
+#box15 {
+    width: 70.5px;
+    height: 105px;
+    background-color: rgb(183, 231, 233);
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    top: -1295px;
+    left: 178.5px;
+}
+#box16 {
+    width: 150px;
+    height: 60px;
+    background-color: whitesmoke;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    top: -1295px;
+    left: 138.5px;
+}
+#box17 {
+        width: 150px;
+        height: 95px;
+        background-color: blue;
+        border-bottom: 10px solid black;
+        border-right: 10px solid black;
+        position: relative;
+        top: -1295px;
+        left: 138.5px;
+}
+#box18 {
+    display: block;
+    width: 275px;
+    height: 16px;
+    background-color:rgb(183, 231, 233) ;
+    border-right: 10px solid black;
+    position: relative;
+    top:-1295px;
+    left: 76px;
+
+}
+#box19 {
+    width: 32px;
+    height: 121px;
+    background-color: rgb(245, 45, 45);
+    border-top: 10px solid black;
+    position: relative;
+    top: -1426px;
+    left: 234.5px;
+
+}
