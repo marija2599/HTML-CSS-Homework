@@ -1,0 +1,315 @@
+* {
+    font-family: 'Fjord One', serif;
+    margin: auto;
+} 
+
+
+.nav-bar {
+    background-color: rgb(11, 155, 107);
+    height: 65px;
+    font-size: 18px;
+}
+
+
+.nav-bar > a {
+    color: white;
+    float: right;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 5px 10px;
+    border: 1px solid rgba(8, 22, 8, 0.527);
+   border-radius: 5px;
+   background-color: rgb(49, 100, 69);
+    
+}
+
+
+.nav-bar > a:hover {
+    background-color:rgba(255, 255, 255, 0.432);
+}
+
+
+#logo {
+    float: left;
+    color: black;
+    font-size: 25px;
+    font-weight: 1000;
+    margin-left: 60px;
+    border: none;
+    background-color:rgb(11, 155, 107);
+    margin-top: 20px;
+}
+
+
+#login {
+    color: black;
+    margin-right: 50px;
+    background-color: white;
+}
+
+
+#login:hover {
+    background-color: rgb(49, 100, 69);
+}
+
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.title {
+    background-image: url(../images/pexels-anna-shvets-3727464.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.title > h1 {
+position: relative;
+top: 160px;
+left: 300px;
+}
+
+
+.title > a {
+    color: white;
+    border: 1px solid rgba(8, 22, 8, 0.527);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(49, 100, 69);
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+
+
+.title > a:hover {
+    background-color:rgba(255, 255, 255, 0.432) ;
+}
+
+
+.text-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: rgba(245, 245, 245, 0.521);
+    
+    
+}
+
+
+.text-bar > article {
+    width: 500px;
+    height: 210px;
+    text-align: center;
+  padding: 30px 30px;
+  margin: 40px;
+  border: rgba(204, 199, 199, 0.651) 1px solid;
+  background-color: white;
+  line-height: 35px;
+}
+
+
+.text-bar > article > h3 {
+    padding-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    height: 40px;
+    background-color: rgb(235, 232, 232);
+}
+
+
+small {
+   position: relative;
+   top: 15px;
+}
+
+
+#button3 {
+    padding: 5px 10px;
+    border: 1px solid rgb(49, 100, 69);
+    border-radius: 5px;
+    color: rgb(49, 100, 69);
+    position: relative;
+    top: 20px;
+    
+}
+
+
+#button {
+    padding: 5px 10px;
+    border: 1px solid rgb(49, 100, 69);
+    border-radius: 5px;
+    color: rgb(49, 100, 69);
+}
+
+
+#button:hover {
+    background-color: rgba(86, 109, 86, 0.219);
+}
+
+
+#buttons {
+    padding: 0px 5x;
+    border: 1px solid rgb(194, 194, 194);
+    color: black;
+    background-color: rgb(194, 194, 194);
+    
+}
+
+
+#buttons:hover {
+   background-color: rgba(214, 214, 214, 0.993); 
+}
+
+#button3:hover {
+    background-color:rgba(86, 109, 86, 0.219) ;
+}
+
+
+#video-calls {
+    text-decoration: underline;
+    color: rgb(48, 102, 182);
+}
+
+@media screen and (min-width: 768px) {
+ 
+    body {
+        font-size: 15px;
+    }
+    .title > h1 {
+        font-size: 23px;
+       margin-right: 400px;
+    }
+    .title > a {
+        margin-right: 500px;
+    }
+  .text-bar > article {
+      display: block;
+      height: auto;
+      width: auto;
+      line-height: 25px;
+      margin: 15px 15px;
+  }
+  #button {
+     position: relative;
+     top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+   .nav-bar {
+       display: flex;
+       flex-direction: column;
+       font-size: 14px;
+       margin: 0;
+       padding: 0;
+       
+   }
+
+   .nav-bar > a {
+       position: relative;
+       top: 70px;
+       z-index: 99;
+   }
+
+
+   #logo {
+       position: unset;
+   }
+
+
+  #login {
+      width: 90px;
+  }
+
+
+  .title {
+     background-color: rgb(49, 100, 69);
+     background-image: none;
+}
+
+
+   .title > h1 {
+    font-size: 20px;
+    position: unset;
+    margin-left: 160px;
+    margin-top: 150px;
+}
+    
+
+    .title > a {
+        position: unset;
+        font-size: 16px;
+        margin-left: 230px;
+        margin-top: -100px;
+    }
+
+    
+    .text-bar {
+         flex-direction: column;
+         width: 300px;
+         margin: 0;
+         position: relative;
+         right: 50px;
+         background-color: white;
+    }
+
+    .nav-bar {
+        position: relative;
+        left: 35px;
+    }
+    .title {
+        position: relative;
+        left: 35px;
+    }
+
+    footer {
+        margin-left: 30px;
+        background-color: white;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .text-bar > article {
+        width: 250px;
+        position: relative;
+        left: 15px;
+        height: 300px;
+    }
+
+  body {
+      margin: 0;
+  }
+
+    .nav-bar {
+        position: relative;
+        left: 3px;
+    }
+    .title {
+        position: relative;
+        left: 3px;
+    }
+
+    .nav-bar a {
+    flex-direction: column;
+    z-index: 999;
+    }
+
+    .title > a {
+        position: relative;
+        left: -50px;
+    }
+}
